@@ -16,6 +16,8 @@ from azureml.core import Dataset, Datastore
 # "https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv"
 
 # ds = ### YOUR CODE HERE ###
+#ds = TabularDatasetFactory.from_demilited_files(path=web_path, header=True)
+
 web_path = "https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv"
 ds = Dataset.Tabular.from_delimited_files(path=web_path, header=True)
 
@@ -74,3 +76,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
