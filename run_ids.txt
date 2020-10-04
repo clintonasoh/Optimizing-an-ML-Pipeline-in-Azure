@@ -1,0 +1,1 @@
+fc8cd335-96c6-4f51-b0b9-ec1460434a5e{'Regularization Strength:': 1.0, 'Max iterations:': 47, 'Accuracy': 0.909711684370258}
