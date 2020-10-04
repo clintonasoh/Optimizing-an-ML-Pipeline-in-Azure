@@ -38,7 +38,8 @@ def clean_data(data):
 
     y_df = x_df.pop("y").apply(lambda s: 1 if s == "yes" else 0)
     
-# TODO: Create TabularDataset using TabularDatasetFactory
+    return x_df, y_df
+    
 # Data is located at:
 # "https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv"
 
