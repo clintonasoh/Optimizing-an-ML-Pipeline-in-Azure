@@ -12,7 +12,7 @@ The [dataset](https://automlsamplenotebookdata.blob.core.windows.net/automl-samp
 
 **In 1-2 sentences, explain the solution: e.g. "The best performing model was a ..."**
 
-The best performing model from was the __VotingEnsemble__ model, as shown in the image below.
+The best performing model from was the __VotingEnsemble__ classification algorithm, as shown in the image below.
 ![best model](./AutoML-Results-images/auto_res4.png)
 
 The most important feature was duration as shown below.
