@@ -22,7 +22,8 @@ __VotingEnsemble__ works by combining the predictions from multiple models. It c
 ## Scikit-learn Pipeline
 **Explain the pipeline architecture, including data, hyperparameter tuning, and classification algorithm.**
 
-The SKlearn pipeline consist of the `train.py` script and hyperparameter tuning using __Hyperdrive__. In the script, I create the dataset using the `TabularDatasetFactory`, clean the data and split it into `train` and `test` sets. In the Jupyter notebook, `Optimizing-an-ML-Pipeline-in-Azure-final.ipynb`,, I then define an SKlearn estimator, a parameter sampler, an early stopping policy, and a HyperDriveConfig to tune the `--C` and `--max_iter` parameters.
+The SKlearn pipeline consist of the `train.py` script and hyperparameter tuning using __Hyperdrive__. In the script, I create the dataset using the `TabularDatasetFactory`, clean the data and split it into `train` and `test` sets. In the Jupyter notebook, `Optimizing-an-ML-Pipeline-in-Azure-final.ipynb`, I then define an SKlearn estimator, a parameter sampler, an early stopping policy, and a HyperDriveConfig to tune the `--C` and `--max_iter` parameters.
+
 - `--C` is the _Inverse of Regularization Strength_. Smaller values of this parameter cause stronger regularization.
 - `--max_iter` is _Maximum number of iterations_ to converge. 
 
