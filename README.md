@@ -28,11 +28,6 @@ The SKlearn pipeline consist of the `train.py` script and hyperparameter tuning 
 
 The config uses the `Accuracy` as the primary metric and a maximum of 20 runs. The image below shows the accuracy of `0.9096` from the best Hyperdrive run.
 
-```
-The best Run Id is:  HD_ea3ad05d-3463-468d-8be7-e842c3a5d4d9_6
-The best run Metrics are: {'Regularization Strength:': 0.1, 'Max iterations:': 51, 'Accuracy': 0.909711684370258}
-```
-
 ![Best hyperdrive run](./Hyperdrive-Results-images/hd_best_run_graph.png)
 ![Best hyperdrive run](./Hyperdrive-Results-images/hd_best_run_graph2.png)
 
